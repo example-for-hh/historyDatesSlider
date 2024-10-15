@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "baseUrl": "./",
+        "lib": ["dom", "es2015"],
+        "jsx": "react-jsx",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "paths": {
+            "@src/*": ["src/*"],
+            "@components/*": ["src/components/*"],
+            "@styles/*": ["src/styles/*"],
+            "@assets/*": ["src/assets/*"],
+            "@types/*": ["src/types/*"]
+        }
+    },
+    "include": ["src"]
+}
